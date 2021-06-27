@@ -1,32 +1,31 @@
 * {
 	box-sizing: border-box;
-	font-family:'Courier New', monospace;
+	font-family:'Halvetica', monospace;
 	margin: 0px;
 	padding: 0px;
-
+	font-weight: 300;
 }
 body{
-	margin-left: 30px;
-	margin-right: 20px;
+	background: #DAF7A6;
+	width: 90%;
+	margin: auto;
 }
 
 h1{
-	color: black;
 }
 
 h2{
 	font-size: 25px;
-	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 li{
-	margin-left: 20px;
+	margin-left: 50px;
 	padding-bottom: 15px;
 }
 
 #header{
-	border-left: solid 10px;
+	background: #B2D6FF;
 	padding-top: 45px;
 	padding-bottom: 50px;
 	padding-left: 15px;
@@ -34,23 +33,28 @@ li{
 }
 
 #landing-section{
-	border-left: solid 10px;
-	font-size: 25px;
-	margin-top: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background: #F09A9D;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	padding-left: 15px;
 }
 
 #projects{
+	background: #F5CF8E;
+	height: 100%;
 	font-size: 18px;
-	border-left: solid 10px;
-	margin-top: 50px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 15px;
-	height: 250px;
 }
-
+#footer{
+	background: #D6E9FE;
+	font-size: 50px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	padding-left: 15px;
+}
 
 
 
